@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>welcome to the book store contact info</title>
+    <meta name="author" content="faisal" />
+    <meta name="description" content="this is a simple demo webpage" />
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="store.html">Home</a></li>
+          <li><a href="store.html#about">About BSS</a></li>
+          <li><a href="store.html#books">Books</a></li>
+          <li><a href="storehours.html">Store hours</a></li>
+        </ul>
+        <figure>
+          <img
+            src="img/writing.jpg"
+            alt="BSS store"
+            width="420"
+            height="280"
+            title="BSS store"
+          />
+          <figcaption>Little Book Store</figcaption>
+        </figure>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section id="contact">
+          <h2>Our contact form</h2>
+          <form action="https:httpbin.org/get" method="get">
+            <fieldset>
+              <legend>Send us a message</legend>
+              <p>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </p>
+              <p>
+                <label for="email">Email</label>
+                <input type="text" name="emai" id="email" />
+              </p>
+              <p>
+                <label for="message">Your message</label>
+                <br />
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="type your message here..."
+                ></textarea>
+              </p>
+
+              <legend>categories you like</legend>
+              <p>
+                <input type="checkbox" name="book" id="fiction" />
+                <label for="fiction">Fiction</label>
+              </p>
+              <p>
+                <input type="checkbox" name="book" id="nonfiction" />
+                <label for="nonfiction">Non-fiction</label>
+              </p>
+              <p>
+                <input type="checkbox" name="book" id="psychology" />
+                <label for="psychology">Psychology</label>
+              </p>
+              <p>
+                <input type="checkbox" name="book" id="history" />
+                <label for="history">History</label>
+              </p>
+
+              <legend>your favourite category</legend>
+              <p>
+                <input type="radio" name="favb" id="fiction" />
+                <label for="fiction">Fiction</label>
+              </p>
+              <p>
+                <input type="radio" name="favb" id="nonfic" />
+                <label for="nonfic">Non fiction</label>
+              </p>
+              <p>
+                <input type="radio" name="favb" id="psychology" />
+                <label for="psychology">Psychology</label>
+              </p>
+              <p>
+                <input type="radio" name="favb" id="history" />
+                <label for="history">History</label>
+              </p>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </form>
+        </section>
+        <section>
+          <h2>Our location</h2>
+          <p>555 Book store colony Bookcity city.</p>
+          <p>You can <a href="tel:+910123456789">Contact us</a></p>
+          <p>You can <a href="mailto:www.xyz@gmail.com">mail us</a></p>
+          <br /><br />
+          <a href="#">Back to top</a>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <hr />
+      <p>Copyright &copy; Little Book Store</p>
+    </footer>
+  </body>
+</html>

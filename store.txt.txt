@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="faisal" />
+    <meta name="description" content="this is a simple demo webpage" />
+    <title>welcome to the book store</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+    <style>
+      table,
+      th {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to the Little Book Store</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About LBS</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="storehours.html">Store Hours</a></li>
+          <li><a href="storeContact.html">Contact Us</a></li>
+        </ul>
+        <figure>
+          <img
+            src="img/pexels-abby-chung-1106468.jpg"
+            alt="BookStore"
+            title="bookstoreSillod"
+            width="520"
+            height="340"
+            loading="lazy"
+          />
+          <figcaption>Little Book Store</figcaption>
+        </figure>
+        <hr />
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section id="about">
+          <h2>About LBS</h2>
+          <p>
+            LBS was founded in 2023. Our store was built from a love of books.
+            we hope our store will add a unique place to our town. Here you can
+            read/buy books.
+          </p>
+          <hr />
+        </section>
+
+        <section id="books">
+          <h2>Books</h2>
+          <table>
+            <caption>
+              Books list
+            </caption>
+            <thead>
+              <tr>
+                <th>Sr. no.</th>
+                <th>Book Name</th>
+                <th>Unit Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01</td>
+                <td>The Little Prince</td>
+                <td>80</td>
+              </tr>
+              <tr>
+                <td>02</td>
+                <td>Animal Farm</td>
+                <td>90</td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>1984</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>Think and Grow Rich</td>
+                <td>70</td>
+              </tr>
+              <tr>
+                <td>05</td>
+                <td>The Prophet</td>
+                <td>90</td>
+              </tr>
+              <tr>
+                <td>06</td>
+                <td>Sapiens</td>
+                <td>400</td>
+              </tr>
+              <tr>
+                <td>07</td>
+                <td>Metamorphosis</td>
+                <td>70</td>
+              </tr>
+              <tr>
+                <td colspan="3">and many more...</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <br /><br />
+      <a href="#">Back to top</a>
+      <hr />
+      <p>Copyright &copy;Little Book Store</p>
+    </footer>
+  </body>
+</html>
